@@ -1,12 +1,47 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/learning/learning",
+    "pages/progress/progress",
+    "pages/user/user"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "black",
+    "color": "#333",
+    "selectedColor": "#333",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "iconPath": "images/bottom/wxbzhuye.png",
+        "selectedIconPath": "images/bottom/wxbzhuye1.png",
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "iconPath": "images/bottom/learning.png",
+        "selectedIconPath": "images/bottom/learning1.png",
+        "pagePath": "pages/learning/learning",
+        "text": "学习"
+      },
+      {
+        "iconPath": "images/bottom/progress.png",
+        "selectedIconPath": "images/bottom/progress1.png",
+        "pagePath": "pages/progress/progress",
+        "text": "进度"
+      },
+      {
+        "iconPath": "images/bottom/user.png",
+        "selectedIconPath": "images/bottom/user1.png",
+        "pagePath": "pages/user/user",
+        "text": "我的"
+      }
+    ]
   }
 }
